@@ -14,7 +14,6 @@
 #define RR_MAXSLEEP 10		// maximum time for thread to sleep
 #define OTHER_SLEEP 15		// maximum time for thread to do other stuff
 
-
 void *thread_fmain(void *);
 void *thread_mmain(void *);
 void man_enter();
@@ -277,4 +276,3 @@ int get_simple_tid(pthread_t lid, int a)
 	_exit(-1);
 	}
 }
-
